@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cow Site</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="Home-Banner">
+      <div class="row">
+        <div class="col-sm-1">
+          <img
+            src="./Images/flat-design-cow-logo-design_23-2149593237-removebg-preview 1.svg"
+            alt=""
+            style="width: 100%; height: 100%"
+          />
+        </div>
+        <div
+          class="col-sm-9 d-flex justify-content-end align-items-center mt-4"
+        >
+          <div class="d-flex flex-row justify-content-between">
+            <p class="me-5 cursor-pointer header">
+              <a href="./Homepage.html">Home</a>
+            </p>
+            <p class="me-5 header" style="color: #fd7c44; font-weight: bold">
+              Products
+            </p>
+            <p class="me-5 header"><a href="./contact.html">Contact</a></p>
+          </div>
+        </div>
+
+        <div class="col-sm-2 d-flex justify-content-end align-items-center">
+          <button type="button" class="Button me-5">Login</button>
+          <iconify-icon
+            icon="vaadin:cart"
+            style="color: #fd7c44"
+            width="24"
+            height="24"
+          ></iconify-icon>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-7">
+            <div class="col">
+              <div class="card rounded-4 p-1 p-lg-3 border-0">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">
+                    <span class="span-1 pe-2">1</span> Account details
+                  </h5>
+                  <p class="sign-in card-text text-end mb-0">
+                    Already have an account?<a
+                      href="#"
+                      class="text-decoration-none"
+                    >
+                      Sign in here</a
+                    >
+                  </p>
+                  <div class="row">
+                    <div class="col-sm-6 pe-md-3">
+                      <label class="form-label">Email address *</label>
+                      <input
+                        type="email"
+                        id="add"
+                        class="form-control rounded-4 border-0 w-100 ps-3"
+                        placeholder="Email address"
+                        aria-label="Email address"
+                      />
+                    </div>
+                    <div class="col-sm-6 ps-md-3">
+                      <label class="form-label password">Password *</label>
+                      <div class="input-group">
+                        <input
+                          type=""
+                          id="add"
+                          class="form-control rounded-4 border-0 w-100 ps-3"
+                          placeholder="Password"
+                          aria-label="password"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mt-2">
+                    <div class="col-sm-6 pe-md-3">
+                      <label class="form-label">First name *</label>
+                      <input
+                        type="text"
+                        id="add"
+                        class="form-control rounded-4 border-0 w-100 ps-3"
+                        placeholder="First name"
+                        aria-label="First name"
+                      />
+                    </div>
+                    <div class="col-sm-6 ps-md-3">
+                      <label class="form-label last">Last name *</label>
+                      <input
+                        type="text"
+                        id="add"
+                        class="form-control rounded-4 border-0 w-100 ps-3"
+                        placeholder="Last name"
+                        aria-label="Last name"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-body p-0 pt-3">
+                    <div class="row">
+                      <div class="col-sm-12 col-lg-8">
+                        <p class="terms pt-2 lh-1 mt-1">
+                          By creating an account, you agree to the
+                          <a href="#" class="text-decoration-none"
+                            >Terms And Conditions</a
+                          >
+                          set out by this site, Including our
+                          <a href="#" class="text-decoration-none"
+                            >Cookies Use</a
+                          >
+                        </p>
+                      </div>
+                      <div class="col-sm-12 col-lg-4 ps-sm-0">
+                        <button class="button fw-bold text-white w-100">
+                          Continue
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col">
+                <div class="card rounded-4 p-1 p-lg-3 border-0">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bolder mb-0">
+                      <span class="span-1 pe-2">2</span> Billing details
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col">
+                <div class="card rounded-4 p-1 p-lg-3 border-0">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bolder mb-0">
+                      <span class="span-1 pe-2">3</span> Payment
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 px-md-1">
+            <div class="col order">
+              <div class="card rounded-4 p-1 p-lg-3 me-lg-5 border-0">
+                <div class="card-body">
+                  <h5 class="card-title fw-bolder pb-3">Order summary</h5>
+                  <div class="row">
+                    <h5 class="col-6 text-start mb-0 plan">Plan</h5>
+                    <h5 class="col-6 text-end mb-0 plan">Price</h5>
+                  </div>
+                  <div class="row free">
+                    <p class="col-6 text-start pb-3">Free Trial</p>
+                    <p class="col-6 text-end pb-3">₹0.00</p>
+                  </div>
+                  <hr class="p-0 m-0 hr" />
+                  <div class="row pb-3">
+                    <h5 class="col-8 text-start pt-4 plan">Total due today</h5>
+                    <h5 class="col-4 text-end pt-4 plan text-nowrap">₹0.00</h5>
+                  </div>
+                  <div class="row free">
+                    <p class="col text-start pt-2 pb-2">Packt Free trial</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</html>
